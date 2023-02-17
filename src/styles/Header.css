@@ -1,0 +1,33 @@
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-top: 10px;
+  min-height: 120px;
+}
+
+header h1 {
+  color: #fff;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  height: 30px;
+}
+
+.btn {
+  background-color: #eee;
+  outline: none;
+  border: none;
+  width: 130px;
+  padding: 5px 12px;
+  font-size: 95%;
+  border-radius: 5px;
+}
+
+.clicked {
+  background-color: #090;
+  color: #fff;
+}

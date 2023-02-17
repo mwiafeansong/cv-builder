@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Education from './Components/Education';
+import Experience from './Components/Experience';
+import Header from './Components/Header';
+import Personal from './Components/Personal';
+import Skill from './Components/Skills';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      previewMode: false,
+    };
+  }
+
+  setPreviewMode = (bool) => {
+    this.setState({
+      previewMode: bool,
+    });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <Header setPreviewMode={this.setPreviewMode} />
+        <main>
+          <Personal previewMode={this.state.previewMode} />
+          <Experience previewMode={this.state.previewMode} />
+          <Education previewMode={this.state.previewMode} />
+          <Skill previewMode={this.state.previewMode} />
+          {this.state.previewMode && <button className="printCv">Print</button>}
+        </main>
+        <footer>
+          Copyright &copy; 2023{' '}
+          <a href="https://www.github.com/mwiafeansong">mwiafeansong</a>
+        </footer>
+      </div>
+    );
+  }
 }
-
 export default App;

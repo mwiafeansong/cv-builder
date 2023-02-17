@@ -1,0 +1,67 @@
+.experience {
+  max-width: 850px;
+  width: 90%;
+  margin: auto;
+  color: #333;
+  padding: 15px 0;
+  border-bottom: 1px solid grey;
+}
+
+.experience button:not(.addBtn) {
+  background-color: #ccc;
+  border: 1px solid #fff;
+}
+
+.dets {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 90%;
+}
+
+.dets div:nth-child(2) {
+  width: 250px;
+  text-align: end;
+}
+
+.experience li {
+  padding-top: 10px;
+  position: relative;
+}
+
+.experience li::after {
+  content: '';
+  width: 50%;
+  height: 1px;
+  background-color: #ddd;
+  position: absolute;
+}
+
+.listBtns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.addBtn {
+  background-color: #0d0;
+  color: #fff;
+}
+
+/* Education */
+/* .educContainer {
+  background-color: #eeefff;
+} */
+
+/* Skills */
+.mySkills {
+  font-size: 1rem;
+}
+
+.skillDets {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 5px;
+}
