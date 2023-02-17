@@ -1,6 +1,6 @@
 # CV Builder
 
-This is a solution to the [CV Application Project on The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-memory-card).
+This is a solution to the [CV Application Project on The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-cv-application).
 
 ## Table of contents
 
