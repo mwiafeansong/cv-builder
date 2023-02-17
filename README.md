@@ -1,7 +1,6 @@
-# Weather App
+# CV Builder
 
-This is a solution to the [Memory Card Project on The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-memory-card).
-Users click on cards to gain points and are to make sure not to click on a card more than once.
+This is a solution to the [CV Application Project on The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-memory-card).
 
 ## Table of contents
 
