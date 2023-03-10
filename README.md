@@ -11,7 +11,7 @@ This is a solution to the [CV Application Project on The Odin Project](https://w
 
 ### Link
 
-[Live Demo](https://www.mwiafeansong.github.io/cv-builder)
+[Live Demo](https://mwiafeansong.github.io/cv-builder/)
 
 ### Built with
 
