@@ -1,0 +1,14 @@
+@media print {
+  @page {
+    size: auto;
+    margin: 0mm;
+  }
+
+  body {
+    visibility: hidden;
+  }
+
+  .print {
+    visibility: visible;
+  }
+}

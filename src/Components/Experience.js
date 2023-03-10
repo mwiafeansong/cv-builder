@@ -213,7 +213,7 @@ class Experience extends Component {
 
     if (this.props.previewMode) {
       return (
-        <section className="experience">
+        <section className="experience print">
           <h2>WORK EXPERIENCE</h2>
           <Overview
             experiences={experiences}

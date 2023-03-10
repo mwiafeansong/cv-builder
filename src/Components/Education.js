@@ -210,7 +210,7 @@ class Education extends Component {
 
     if (this.props.previewMode) {
       return (
-        <div className="educContainer">
+        <div className="educContainer print">
           <section className="experience education">
             <h2>EDUCATION</h2>
             <Overview

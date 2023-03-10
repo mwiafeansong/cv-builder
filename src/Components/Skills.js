@@ -72,7 +72,7 @@ class Skill extends Component {
     const { skill, skills, showForm } = this.state;
     if (this.props.previewMode) {
       return (
-        <section className="experience mySkills">
+        <section className="experience mySkills print">
           <h2>SKILLS</h2>
           <Overview
             skills={skills}

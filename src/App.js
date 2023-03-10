@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './print.css';
 import Education from './Components/Education';
 import Experience from './Components/Experience';
 import Header from './Components/Header';
@@ -21,6 +22,11 @@ class App extends Component {
     });
   };
 
+  printPage = () => {
+    window.print();
+    return false;
+  };
+
   render() {
     return (
       <div className="App">
@@ -30,7 +36,11 @@ class App extends Component {
           <Experience previewMode={this.state.previewMode} />
           <Education previewMode={this.state.previewMode} />
           <Skill previewMode={this.state.previewMode} />
-          {this.state.previewMode && <button className="printCv">Print</button>}
+          {this.state.previewMode && (
+            <button className="printCv" onClick={this.printPage}>
+              Print
+            </button>
+          )}
         </main>
         <footer>
           Copyright &copy; 2023{' '}

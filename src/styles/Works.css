@@ -29,7 +29,7 @@
   position: relative;
 }
 
-.experience li::after {
+.experience li:not(.mySkills li)::after {
   content: '';
   width: 50%;
   height: 1px;
@@ -48,11 +48,6 @@
   background-color: #0d0;
   color: #fff;
 }
-
-/* Education */
-/* .educContainer {
-  background-color: #eeefff;
-} */
 
 /* Skills */
 .mySkills {

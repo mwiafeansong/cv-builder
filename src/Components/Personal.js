@@ -57,7 +57,7 @@ class Personal extends Component {
     if (this.props.previewMode) {
       return (
         <div className="container">
-          <section className="personal">
+          <section className="personal print">
             <div className="details">
               <div className="nameDetails">
                 <p>{firstName}</p>
